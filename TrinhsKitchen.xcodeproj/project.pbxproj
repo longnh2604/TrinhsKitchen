@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22AD268A276E0D5100087220 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AD2689276E0D5100087220 /* AppDelegate.swift */; };
+		22AD268C276E0D5100087220 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AD268B276E0D5100087220 /* SceneDelegate.swift */; };
+		22AD268E276E0D5100087220 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AD268D276E0D5100087220 /* ViewController.swift */; };
+		22AD2691276E0D5100087220 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22AD268F276E0D5100087220 /* Main.storyboard */; };
+		22AD2693276E0D5E00087220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22AD2692276E0D5E00087220 /* Assets.xcassets */; };
+		22AD2696276E0D5E00087220 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22AD2694276E0D5E00087220 /* LaunchScreen.storyboard */; };
+		22AD26A1276E0D5F00087220 /* TrinhsKitchenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AD26A0276E0D5F00087220 /* TrinhsKitchenTests.swift */; };
+		22AD26AB276E0D5F00087220 /* TrinhsKitchenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AD26AA276E0D5F00087220 /* TrinhsKitchenUITests.swift */; };
+		22AD26AD276E0D5F00087220 /* TrinhsKitchenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AD26AC276E0D5F00087220 /* TrinhsKitchenUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22AD269D276E0D5F00087220 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22AD267E276E0D5100087220 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22AD2685276E0D5100087220;
+			remoteInfo = TrinhsKitchen;
+		};
+		22AD26A7276E0D5F00087220 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22AD267E276E0D5100087220 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22AD2685276E0D5100087220;
+			remoteInfo = TrinhsKitchen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22AD2686276E0D5100087220 /* TrinhsKitchen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrinhsKitchen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22AD2689276E0D5100087220 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22AD268B276E0D5100087220 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		22AD268D276E0D5100087220 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22AD2690276E0D5100087220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22AD2692276E0D5E00087220 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22AD2695276E0D5E00087220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22AD2697276E0D5E00087220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22AD269C276E0D5F00087220 /* TrinhsKitchenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrinhsKitchenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22AD26A0276E0D5F00087220 /* TrinhsKitchenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrinhsKitchenTests.swift; sourceTree = "<group>"; };
+		22AD26A6276E0D5F00087220 /* TrinhsKitchenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrinhsKitchenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22AD26AA276E0D5F00087220 /* TrinhsKitchenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrinhsKitchenUITests.swift; sourceTree = "<group>"; };
+		22AD26AC276E0D5F00087220 /* TrinhsKitchenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrinhsKitchenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22AD2683276E0D5100087220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22AD2699276E0D5F00087220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22AD26A3276E0D5F00087220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22AD267D276E0D5100087220 = {
+			isa = PBXGroup;
+			children = (
+				22AD2688276E0D5100087220 /* TrinhsKitchen */,
+				22AD269F276E0D5F00087220 /* TrinhsKitchenTests */,
+				22AD26A9276E0D5F00087220 /* TrinhsKitchenUITests */,
+				22AD2687276E0D5100087220 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22AD2687276E0D5100087220 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22AD2686276E0D5100087220 /* TrinhsKitchen.app */,
+				22AD269C276E0D5F00087220 /* TrinhsKitchenTests.xctest */,
+				22AD26A6276E0D5F00087220 /* TrinhsKitchenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22AD2688276E0D5100087220 /* TrinhsKitchen */ = {
+			isa = PBXGroup;
+			children = (
+				22AD2689276E0D5100087220 /* AppDelegate.swift */,
+				22AD268B276E0D5100087220 /* SceneDelegate.swift */,
+				22AD268D276E0D5100087220 /* ViewController.swift */,
+				22AD268F276E0D5100087220 /* Main.storyboard */,
+				22AD2692276E0D5E00087220 /* Assets.xcassets */,
+				22AD2694276E0D5E00087220 /* LaunchScreen.storyboard */,
+				22AD2697276E0D5E00087220 /* Info.plist */,
+			);
+			path = TrinhsKitchen;
+			sourceTree = "<group>";
+		};
+		22AD269F276E0D5F00087220 /* TrinhsKitchenTests */ = {
+			isa = PBXGroup;
+			children = (
+				22AD26A0276E0D5F00087220 /* TrinhsKitchenTests.swift */,
+			);
+			path = TrinhsKitchenTests;
+			sourceTree = "<group>";
+		};
+		22AD26A9276E0D5F00087220 /* TrinhsKitchenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22AD26AA276E0D5F00087220 /* TrinhsKitchenUITests.swift */,
+				22AD26AC276E0D5F00087220 /* TrinhsKitchenUITestsLaunchTests.swift */,
+			);
+			path = TrinhsKitchenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22AD2685276E0D5100087220 /* TrinhsKitchen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22AD26B0276E0D5F00087220 /* Build configuration list for PBXNativeTarget "TrinhsKitchen" */;
+			buildPhases = (
+				22AD2682276E0D5100087220 /* Sources */,
+				22AD2683276E0D5100087220 /* Frameworks */,
+				22AD2684276E0D5100087220 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrinhsKitchen;
+			productName = TrinhsKitchen;
+			productReference = 22AD2686276E0D5100087220 /* TrinhsKitchen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22AD269B276E0D5F00087220 /* TrinhsKitchenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22AD26B3276E0D5F00087220 /* Build configuration list for PBXNativeTarget "TrinhsKitchenTests" */;
+			buildPhases = (
+				22AD2698276E0D5F00087220 /* Sources */,
+				22AD2699276E0D5F00087220 /* Frameworks */,
+				22AD269A276E0D5F00087220 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22AD269E276E0D5F00087220 /* PBXTargetDependency */,
+			);
+			name = TrinhsKitchenTests;
+			productName = TrinhsKitchenTests;
+			productReference = 22AD269C276E0D5F00087220 /* TrinhsKitchenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22AD26A5276E0D5F00087220 /* TrinhsKitchenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22AD26B6276E0D5F00087220 /* Build configuration list for PBXNativeTarget "TrinhsKitchenUITests" */;
+			buildPhases = (
+				22AD26A2276E0D5F00087220 /* Sources */,
+				22AD26A3276E0D5F00087220 /* Frameworks */,
+				22AD26A4276E0D5F00087220 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22AD26A8276E0D5F00087220 /* PBXTargetDependency */,
+			);
+			name = TrinhsKitchenUITests;
+			productName = TrinhsKitchenUITests;
+			productReference = 22AD26A6276E0D5F00087220 /* TrinhsKitchenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22AD267E276E0D5100087220 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					22AD2685276E0D5100087220 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					22AD269B276E0D5F00087220 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 22AD2685276E0D5100087220;
+					};
+					22AD26A5276E0D5F00087220 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 22AD2685276E0D5100087220;
+					};
+				};
+			};
+			buildConfigurationList = 22AD2681276E0D5100087220 /* Build configuration list for PBXProject "TrinhsKitchen" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22AD267D276E0D5100087220;
+			productRefGroup = 22AD2687276E0D5100087220 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22AD2685276E0D5100087220 /* TrinhsKitchen */,
+				22AD269B276E0D5F00087220 /* TrinhsKitchenTests */,
+				22AD26A5276E0D5F00087220 /* TrinhsKitchenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22AD2684276E0D5100087220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22AD2696276E0D5E00087220 /* LaunchScreen.storyboard in Resources */,
+				22AD2693276E0D5E00087220 /* Assets.xcassets in Resources */,
+				22AD2691276E0D5100087220 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22AD269A276E0D5F00087220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22AD26A4276E0D5F00087220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22AD2682276E0D5100087220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22AD268E276E0D5100087220 /* ViewController.swift in Sources */,
+				22AD268A276E0D5100087220 /* AppDelegate.swift in Sources */,
+				22AD268C276E0D5100087220 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22AD2698276E0D5F00087220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22AD26A1276E0D5F00087220 /* TrinhsKitchenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22AD26A2276E0D5F00087220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22AD26AB276E0D5F00087220 /* TrinhsKitchenUITests.swift in Sources */,
+				22AD26AD276E0D5F00087220 /* TrinhsKitchenUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22AD269E276E0D5F00087220 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22AD2685276E0D5100087220 /* TrinhsKitchen */;
+			targetProxy = 22AD269D276E0D5F00087220 /* PBXContainerItemProxy */;
+		};
+		22AD26A8276E0D5F00087220 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22AD2685276E0D5100087220 /* TrinhsKitchen */;
+			targetProxy = 22AD26A7276E0D5F00087220 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22AD268F276E0D5100087220 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22AD2690276E0D5100087220 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22AD2694276E0D5E00087220 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22AD2695276E0D5E00087220 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22AD26AE276E0D5F00087220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22AD26AF276E0D5F00087220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22AD26B1276E0D5F00087220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8YLSK83HY4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TrinhsKitchen/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trinhskitchen.TrinhsKitchen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22AD26B2276E0D5F00087220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8YLSK83HY4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TrinhsKitchen/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trinhskitchen.TrinhsKitchen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		22AD26B4276E0D5F00087220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8YLSK83HY4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trinhskitchen.TrinhsKitchenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrinhsKitchen.app/TrinhsKitchen";
+			};
+			name = Debug;
+		};
+		22AD26B5276E0D5F00087220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8YLSK83HY4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trinhskitchen.TrinhsKitchenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrinhsKitchen.app/TrinhsKitchen";
+			};
+			name = Release;
+		};
+		22AD26B7276E0D5F00087220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8YLSK83HY4;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trinhskitchen.TrinhsKitchenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrinhsKitchen;
+			};
+			name = Debug;
+		};
+		22AD26B8276E0D5F00087220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8YLSK83HY4;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trinhskitchen.TrinhsKitchenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrinhsKitchen;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22AD2681276E0D5100087220 /* Build configuration list for PBXProject "TrinhsKitchen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22AD26AE276E0D5F00087220 /* Debug */,
+				22AD26AF276E0D5F00087220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22AD26B0276E0D5F00087220 /* Build configuration list for PBXNativeTarget "TrinhsKitchen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22AD26B1276E0D5F00087220 /* Debug */,
+				22AD26B2276E0D5F00087220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22AD26B3276E0D5F00087220 /* Build configuration list for PBXNativeTarget "TrinhsKitchenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22AD26B4276E0D5F00087220 /* Debug */,
+				22AD26B5276E0D5F00087220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22AD26B6276E0D5F00087220 /* Build configuration list for PBXNativeTarget "TrinhsKitchenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22AD26B7276E0D5F00087220 /* Debug */,
+				22AD26B8276E0D5F00087220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22AD267E276E0D5100087220 /* Project object */;
+}
